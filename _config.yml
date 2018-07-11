@@ -5,7 +5,8 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko"
@@ -93,7 +94,7 @@ analytics:
 
 # Site Author
 author:
-    name             : "유문상"
+  name             : "유문상"
   # name             : "Junho Baik"
   avatar           : "/assets/images/profile.JPG"
   bio              : "유문상의 블로그입니다. 백엔드,데이터분석에 관심이 있습니다."
