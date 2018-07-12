@@ -10,7 +10,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko"
-title                    : "ms_Blog"
+title                    : "멈춤보단 천천히라도"
 # title                    : "Dev.Hundred"
 title_separator          : "-"
 name                     : "yhumoonsang blog"
@@ -117,7 +117,8 @@ author:
   keybase          :
   instagram        : 
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "moonsang-yhu-491341129"
+  # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
@@ -269,3 +270,4 @@ defaults:
       related: true
       # category: undefined
       toc: true
+
