@@ -10,7 +10,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "ko"
-title                    : "한걸음씩 우직하게"
+title                    : "한걸음씩 꾸준하게"
 # title                    : "Dev.Hundred"
 title_separator          : "-"
 name                     : "yhumoonsang blog"
@@ -27,9 +27,9 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 words_per_minute         : 200
 comments:
   provider               :  # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
-  # provider               : "disqus"
+  provider               : "disqus"
   disqus:
-    shortname            : 
+    shortname            : https-zesow-github-io
     # shortname            : dev-hundred-blog
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
@@ -62,6 +62,8 @@ atom_feed:
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 
+#disque_url: ""
+disque_id: "https-zesow-github-io"
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -254,7 +256,10 @@ compress_html:
   ignore:
     envs: development
 
-
+comments:
+  provider               : "disqus"
+  disqus:
+    shortname            : https-zesow-github-io # Short-name
 # Defaults
 defaults:
   # _posts
