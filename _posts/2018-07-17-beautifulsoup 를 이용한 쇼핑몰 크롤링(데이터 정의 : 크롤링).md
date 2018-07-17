@@ -81,7 +81,7 @@ while True:
             review_json['pTitle'] = products.get_text().strip()
             review_json['cId'] = reviewers.get_text().strip()
             review_json['rNo'] = int(obj.get('id').split('_')[1])
-            review_json['_id'] = 'stylenanda_'+str(review_json['rNo'])
+            review_json['_id'] = str(review_json['rNo'])
             review_json['helpful'] = [int(helpfuls_plus.get_text().strip()),int(helpfuls_total.get_text().strip())]
             rScore_temp = evals.get_text().replace('-','').strip()
             if(rScore_temp == "아주 좋아요"):
@@ -142,7 +142,7 @@ while True:
     if len(jsonList) == 0:
         break
     if page % 250 == 0 :
-        fname = folder_name + '/stylenanda_'+str(count)+'.json'
+        fname = folder_name +str(count)+'.json'
         with open(fname, 'w') as fp:
             json.dump(jsonList, fp, ensure_ascii=False, indent="\t")
 
