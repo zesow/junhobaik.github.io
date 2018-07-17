@@ -53,7 +53,7 @@ https://askubuntu.com/questions/958583/how-to-upgrade-mongodb-from-2-6-to-3-4-on
 
 후,
 
-```
+```json
 db.createUser({
 
 	user: "id",
@@ -83,7 +83,7 @@ db.createUser({
 
 ## 다량의 json import 위한 쉘스크립트 작성
 
-```
+```shell
 #!/bin/bash
 
 url="파일루트"
