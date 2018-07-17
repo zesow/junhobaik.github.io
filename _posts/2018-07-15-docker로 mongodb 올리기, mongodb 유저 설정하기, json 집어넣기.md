@@ -49,21 +49,27 @@ https://askubuntu.com/questions/958583/how-to-upgrade-mongodb-from-2-6-to-3-4-on
 
 ### 유저 생성
 
-`
+`use admin`
 
+후,
+
+```
 db.createUser({
 
-​	user: "id",
+	user: "id",
 
-​	pwd: "pw",
+	pwd: "pw",
 
-​	roles: [{role: "read",db: "db명"}],
+	roles: [{role: "read",db: "db명"}],
 
-​	passwordDigestor: "server"
+	passwordDigestor: "server"
 
 })
+```
 
-`
+
+
+
 
 
 
@@ -77,17 +83,22 @@ db.createUser({
 
 ## 다량의 json import 위한 쉘스크립트 작성
 
-`
-
+```
 #!/bin/bash
 
 url="파일루트"
 
 for ((i=1;i<=56;i++));do
+
     echo mongoimport -h ip:port -d db -c collection -u id -p pw --file $url$i.json --jsonArray --authenticationDatabase admin
+
 done
 
-`
+```
+
+
+
+
 
 
 
