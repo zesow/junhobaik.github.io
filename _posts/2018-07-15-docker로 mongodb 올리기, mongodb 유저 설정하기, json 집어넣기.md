@@ -9,19 +9,21 @@ tags:
 
 
 
-# docker 설정
+## docker 설정
 
 ### docker run 하면서 mongo admin 계정 생성하기 & 포트 설정해주기 & 쉘 가능하게 & detach 가능하게 하기
 
 `docker run -dit -p 외부포트:내부포트 --name mongodb -e MONGO_INITDB_ROOT_USERNAME=id -e MONGO_INITDB_ROOT_PASSWORD=pw mongo`
 
-## mongo 깔린 docker 쉘 접속과 동시에 mongo로그인
+
+
+### mongo 깔린 docker 쉘 접속과 동시에 mongo로그인
 
 `docker exec -it mongodb mongo -u id -p pw --authenticationDatabase admin`
 
 
 
-# mongo 설정
+## mongo 설정
 
 ### 외부에서 접속
 
@@ -73,7 +75,7 @@ db.createUser({
 
 
 
-# mongodb 에 json 집어넣기
+## mongodb 에 json 집어넣기
 
 ### jsonImport
 
