@@ -1,3 +1,12 @@
+---
+- tags
+  - docker
+  - shell script
+  - parallel processing
+---
+
+
+
 ## 개요
 
  저번 포스팅에서 docker run 해서 원하는 페이지를 크롤링하는 이미지를 만들었다.
