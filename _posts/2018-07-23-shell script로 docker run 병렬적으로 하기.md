@@ -53,7 +53,7 @@ expr 을 이용하여 사칙연산도 가능하다.
 
 구문은
 
-`nohup docker run -v /tmp/data:/data my_crawler_0.1 시작페이지 끝페이지 &`
+`docker run -d -v /tmp/data:/data my_crawler_0.1 시작페이지 끝페이지 &`
 
 로 쉘스크립트의 for 문을 이용해서 반복한다.
 
