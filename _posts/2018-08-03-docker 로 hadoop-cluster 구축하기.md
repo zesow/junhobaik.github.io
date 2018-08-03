@@ -1,3 +1,13 @@
+---
+tags:
+  - hadoop
+  - docker
+  - network
+  - subnetmask
+---
+
+
+
 ## 개요
 
 현재 제가 사용 가능한 서버는 하나입니다. 
