@@ -1,3 +1,12 @@
+---
+tags:
+  - hadoop
+  - mongo
+  - hadoop-mongo connector
+---
+
+
+
 ## 개요
 
  현재 유저 별 댓글의 유사도를 비교하는 작업을 하고 있다. 그런데, 댓글의 수가 많다보니 파이썬에서 싱글로 다 돌리기는 불가능했다. 그래서 하둡 mapreduce 를 이용해서 유사도 분석, 즉 댓글 별 TF-IDF 를 계산하려고 한다. 데이터는 mongodb 서버에 들어 있어서, 찾아보니 하둡에서 hdfs를 이용하지 않고 mongo-hadoop connector 를 사용하면 mongo에서 곧바로 가져올 수 있다고 한다. 
